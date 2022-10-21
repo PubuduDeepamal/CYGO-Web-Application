@@ -1,0 +1,19 @@
+{
+  "rules": {
+    "userAdmin" : {
+      ".indexOn" : ["email"],
+      ".read": true,
+    	".write": true
+    },
+      
+      "userModerator" : {
+      ".indexOn" : ["email"],
+      ".read": true,
+    	".write": true
+    }
+    
+    
+  }
+    
+}
+
